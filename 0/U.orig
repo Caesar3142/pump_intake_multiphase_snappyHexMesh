@@ -22,7 +22,7 @@ boundaryField
     front
     {
         type            flowRateInletVelocity;
-        massFlowRate constant 0.5;
+        massFlowRate constant 5;
 	rhoInlet	1000;
     }
 
@@ -48,7 +48,7 @@ boundaryField
 	//radialVelocity		constant 0;
 	//tangentialVelocity	constant 1;
 	type            swirlFlowRateInletVelocity;
-        flowRate	constant 	-0.0005;
+        flowRate	constant 	-0.005;
 	rpm		constant	1000;
 	value		uniform 	(0 0 0);
     }

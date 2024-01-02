@@ -14,14 +14,14 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-numberOfSubdomains  8;
+numberOfSubdomains  12;
 
 decomposer      hierarchical;
 distributor     ptscotch;
 
 hierarchicalCoeffs
 {
-    n               (2 2 2);
+    n               (3 2 2);
     order           xyz;
 }
 
