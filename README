@@ -1,0 +1,9 @@
+How to run?
+#1. blockMesh
+#2. snappyHexMesh --> replace "polyMesh" folder within the "constant" folder from the latest time folder
+#3. setField
+#4. Edit "decomposePar" based on your hardware preference
+#5. run "mpirun -np x foamRun -parallel" with x = number of core in your "decomposePar" setup
+post processing
+#1. reconstructPar
+#2. paraFoam
